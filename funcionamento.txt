@@ -1,0 +1,32 @@
+Este aplicativo serve como um intermediador entre o usuário e a API da Marvel, 
+permitindo que o usuário interaja com os recursos fornecidos pela API de forma 
+mais simplificada e estruturada. Aqui está uma breve explicação das rotas:
+
+Personagem:
+    POST /personagem: Cria um novo personagem a partir da API da Marvel.
+    POST /personagem2: Cria um novo personagem localmente.
+    GET /personagem: Retorna todos os personagens salvos no banco de dados.
+    GET /personagem/:id: Retorna um personagem específico pelo ID.
+    PUT /personagem/:id: Atualiza um personagem específico pelo ID.
+    DELETE /personagem/:id: Exclui um personagem específico pelo ID.
+    GET /personagem-count: Retorna a contagem total de personagens no banco de dados.
+Comics:
+    POST /comics: Cria um novo quadrinho a partir da API da Marvel.
+    GET /comics: Retorna todos os quadrinhos salvos no banco de dados.
+    GET /comics/:id: Retorna um quadrinho específico pelo ID.
+    PUT /comics/:id: Atualiza um quadrinho específico pelo ID.
+    DELETE /comics/:id: Exclui um quadrinho específico pelo ID.
+    GET /comics-count: Retorna a contagem total de quadrinhos no banco de dados.
+Criadores:
+    POST /criadores: Cria novos criadores a partir da API da Marvel.
+    POST /criadores2: Cria novos criadores localmente.
+    GET /criadores: Retorna todos os criadores salvos no banco de dados.
+    GET /criadores/:id: Retorna um criador específico pelo ID.
+    PUT /criadores/:id: Atualiza um criador específico pelo ID.
+    DELETE /criadores/:id: Exclui um criador específico pelo ID.
+    GET /criadores-count: Retorna a contagem total de criadores no banco de dados.
+
+Essas rotas permitem que o usuário interaja com os recursos do aplicativo, como 
+criar, atualizar, buscar e excluir personagens, quadrinhos e criadores, 
+além de obter a contagem total de cada entidade no banco de dados. 
+As rotas auxiliares fornecem informações adicionais sobre o número de entidades salvas.
